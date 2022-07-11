@@ -31,7 +31,6 @@ class Registration {
             System.out.println("The user name is empty");
         }
     }
-
     void setPassword(String password) {
         //Valid password cannot be empty and cannot contain userName.
         if (!password.isEmpty()) {
@@ -52,7 +51,6 @@ class Registration {
             }
         }
     }
-
 class Tester{
     public static void main(String[] args) {
     Registration client=new Registration();
